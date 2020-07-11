@@ -20,7 +20,7 @@ To better understand the concept of translation, we've come up with a series of 
 
 ### Sample API Request
 
-{% api-method method="post" host="https://api.tuforty.com" path="/v1/translator/money" %}
+{% api-method method="get" host="https://tuforty.com/api/v1" path="/translator/money" %}
 {% api-method-summary %}
 Get translation
 {% endapi-method-summary %}
@@ -37,23 +37,23 @@ Bearer authentication token \(See Authentication\).
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="decimal\_unit" type="string" required=true %}
-Unit to use for the decimal part of the translation \(e.g. cent\).
+{% api-method-query-parameters %}
+{% api-method-parameter name="language" type="string" required=false %}
+Language to translate into \(see supported languages\).
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="whole\_unit" type="string" required=true %}
-Unit to use for the whole part of the translation \(e.g. dollars\).
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="value" type="number" required=true %}
+{% api-method-parameter name="value" type="string" required=false %}
 Money value to translate.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="language" type="string" required=true %}
-Language to translate into \(see supported languages\).
+{% api-method-parameter name="whole\_unit" type="string" required=false %}
+Unit to use for the whole part of the translation \(e.g. dollars\).
 {% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
+
+{% api-method-parameter name="decimal\_unit" type="string" required=false %}
+Unit to use for the decimal part of the translation \(e.g. cent\)
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -93,7 +93,7 @@ Translation quota has been exhausted. Try purchasing a new quota.
 
 ```
 {
-    "message": "An internal server error occured; We'll notify our development team about the issue."
+    "message": "An error occured; We've notified our dev team already."
 }
 ```
 {% endapi-method-response-example %}
