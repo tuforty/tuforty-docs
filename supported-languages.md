@@ -16,36 +16,36 @@ At the core of our translation, comprises over **60+ languages** you could conve
 
 | Language | code |  | Language | code |
 | :--- | :--- | :--- | :--- | :--- |
-| Afrikaans | **af** |  | Albanian | **sq** |
-| Arabic | **ar** |  | Azerbaijani | **az** |
-| Basque | **eu** |  | Bengali | **bn** |
-| Belarusian | **be** |  | Bulgarian | **bg** |
-| Catalan | **ca** |  | Chinese Simplified | **zh-CN** |
-| Chinese Traditional | **zh-TW** |  | Croatian | **hr** |
-| Czech | **cs** |  | Danish | **da** |
-| Dutch | **nl** |  | English | **en** |
-| Esperanto | **eo** |  | Estonian | **et** |
-| Filipino | **tl** |  | Finnish | **fi** |
-| French | **fr** |  | Galician | **gl** |
-| Georgian | **ka** |  | German | **de** |
-| Greek | **el** |  | Gujarati | **gu** |
-| Haitian Creole | **ht** |  | Hebrew | **iw** |
-| Hindi | **hi** |  | Hungarian | **hu** |
-| Icelandic | **is** |  | Indonesian | **id** |
-| Irish | **ga** |  | Italian | **it** |
-| Japanese | **ja** |  | Kannada | **kn** |
-| Korean | **ko** |  | Latin | **la** |
-| Latvian | **lv** |  | Lithuanian | **lt** |
-| Macedonian | **mk** |  | Malay | **ms** |
-| Maltese | **mt** |  | Norwegian | **no** |
-| Persian | **fa** |  | Polish | **pl** |
-| Portuguese | **pt** |  | Romanian | **ro** |
-| Russian | **ru** |  | Serbian | **sr** |
-| Slovak | **sk** |  | Slovenian | **sl** |
-| Spanish | **es** |  | Swahili | **sw** |
-| Swedish | **sv** |  | Tamil | **ta** |
-| Telugu | **te** |  | Thai | **th** |
-| Turkish | **tr** |  | Ukrainian | **uk** |
-| Urdu | **ur** |  | Vietnamese | **vi** |
-| Welsh | **cy** |  | Yiddish | **yi** |
+| Afrikaans | **af** | | Irish | **ga** |
+| Albanian | **sq** | | Italian | **it** |
+| Arabic | **ar** | | Japanese | **ja** |
+| Azerbaijani | **az** | | Kannada | **kn** |
+| Basque | **eu** | | Korean | **ko** |
+| Belarusian | **be** | | Latin | **la** |
+| Bengali | **bn** | | Latvian | **lv** |
+| Bulgarian | **bg** | | Lithuanian | **lt** |
+| Catalan | **ca** | | Macedonian | **mk** |
+| Chinese Simplified | **zh-CN** | | Malay | **ms** |
+| Chinese Traditional | **zh-TW** | | Maltese | **mt** |
+| Croatian | **hr** | | Norwegian | **no** |
+| Czech | **cs** | | Persian | **fa** |
+| Danish | **da** | | Polish | **pl** |
+| Dutch | **nl** | | Portuguese | **pt** |
+| English | **en** | | Romanian | **ro** |
+| Esperanto | **eo** | | Russian | **ru** |
+| Estonian | **et** | | Serbian | **sr** |
+| Filipino | **tl** | | Slovak | **sk** |
+| Finnish | **fi** | | Slovenian | **sl** |
+| French | **fr** | | Spanish | **es** |
+| Galician | **gl** | | Swahili | **sw** |
+| Georgian | **ka** | | Swedish | **sv** |
+| German | **de** | | Tamil | **ta** |
+| Greek | **el** | | Telugu | **te** |
+| Gujarati | **gu** | | Thai | **th** |
+| Haitian Creole | **ht** | | Turkish | **tr** |
+| Hebrew | **iw** | | Ukrainian | **uk** |
+| Hindi | **hi** | | Urdu | **ur** |
+| Hungarian | **hu** | | Vietnamese | **vi** |
+| Icelandic | **is** | | Welsh | **cy** |
+| Indonesian | **id** | | Yiddish | **yi** |
 
