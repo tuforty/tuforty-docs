@@ -41,15 +41,26 @@ Bearer authentication token \(See Authentication\).
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="language" type="string" required=false %}
+{% api-method-parameter name="use\_short" type="boolean" required=false %}
+Should the currency name and fractional unit be rendered using their short name?  
+  
+**Example:**  
+If the currency is **CAD,** and **use\_short** is:  
+- **true:** _Canadian dollar_  & _cent_ is used.  
+- **false**: _dollar_  & _cent_ is used \(i.e. the generic name\).  
+  
+By default, this is always **true**.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="language" type="string" required=true %}
 Language to translate into \(see supported languages\).
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="value" type="string" required=false %}
+{% api-method-parameter name="value" type="string" required=true %}
 Money value to translate.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="currency" type="string" required=false %}
+{% api-method-parameter name="currency" type="string" required=true %}
 Currency to use for the value specified \(e.g. GBP, USD, INR\).
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
