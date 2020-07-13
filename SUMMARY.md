@@ -2,6 +2,7 @@
 
 * [🚀 Getting Started](README.md)
 * [🌍 Supported Languages](supported-languages.md)
+* [💰Supported Currencies](supported-currencies.md)
 * [🔐 Authorization](authorization/README.md)
   * [🔑 Getting Your API Key](authorization/get-api-key.md)
   * [♻️ Regenerate API Key](authorization/regenerate-api-key.md)

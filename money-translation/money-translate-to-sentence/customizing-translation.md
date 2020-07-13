@@ -10,33 +10,35 @@ The type of translation that can be performed is dependent on the values specifi
 
 {% tabs %}
 {% tab title="Change Currency" %}
-Given a numeric value of `23.23`, it's impossible to identify what currency the above value stands for. To help the us better understand how to translate, it is required that you specify the currency. 
+Given a numeric value of `23.23`,  it's impossible to identify what currency the above value stands for until a currency is attached to it.
 
-#### Changing Currency
+To help the us better understand how to translate, it is required that you specify a **currency code** from our list of [supported ISO-417 currencies](../../supported-currencies.md#currency-codes).
 
-A currency can best be understood by providing the units for:
+**API Request**
 
-* whole number \(e.g. `dollars`, `pounds`\)
-* decimal number \(e.g. `cents`, `sterling`\)
+To change currency of translation for [money to words API request](./#api-request), simply specify it the following body params:
 
-### API Request
-
-To change currency of translation if [money to words API request](./#api-request), simply specify it the following body params:
-
-* `whole_unit` 
-* `decimal_unit`
+* `currency`
 {% endtab %}
 
 {% tab title="Change Language" %}
-It is possible to specify what language to translate the into. 
+Monetary values can be translated into just almost any language by passing it along with the request. 
 
-This requires specifying the language **abbreviation** in the **language** query param.
+To help the us better understand what to translate a monetary value into, it is required that you specify a **language code** from our list of [supported languages](../../supported-languages.md#language-codes).
 
-{% hint style="success" %}
-**Supported Languages:** For supported abbreviations, kindly check [supported languages.](../../supported-languages.md#language-abbreviations)
-{% endhint %}
+**API Request**
+
+To change language of translation for [money to words API request](./#api-request), simply specify it the following query params:
+
+* `language`
 {% endtab %}
 {% endtabs %}
+
+
+
+
+
+
 
 
 

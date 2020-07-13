@@ -10,9 +10,12 @@ To better understand the concept of translation, we've come up with a series of 
 
 | Amount | Currency | Language | Translation |
 | :--- | :--- | :--- | :--- |
-| 2000 | `dollars`, `cents`  | English \(en\) | Two thousand dollars only. |
-| 329.99 | `pounds`, `sterling`  | English \(en\) | Three hundred and twenty-nine pounds, ninety-nine sterling only. |
-| 434103.34 | `naira`, `kobo` | English \(en\) | Four hundred and thirty-four thousand, one hundred and three naira, thirty-four kobo only. |
+| 2000 | `USD`  | English \(`en`\) | Two thousand dollars only. |
+| 329.99 | `GBP`  | English \(`en`\) | Three hundred and twenty-nine pounds, ninety-nine sterling only. |
+| 329.99 | `GBP` | French \(`fr`\) | trois cent vingt-neuf livres, quatre-vingt-dix-neuf penny seulement |
+| 434103.34 | `NGN` | English \(`en`\) | Four hundred and thirty-four thousand, one hundred and three naira, thirty-four kobo only. |
+| 八百七十二万七千八百二十四 | `USD` | English \(`en`\) | Twenty-four dollar, forty-five cent only |
+| 八百七十二万七千八百二十四 | `GBP` | Arabic \(`ar`\) | أربعة وعشرون نيرة ، خمسة وأربعون كوبو فقط |
 
 {% hint style="success" %}
 **Customize:** To change the destination translation language, or currency, kindly check [customizing translation](customizing-translation.md).
@@ -46,12 +49,8 @@ Language to translate into \(see supported languages\).
 Money value to translate.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="whole\_unit" type="string" required=false %}
-Unit to use for the whole part of the translation \(e.g. dollars\).
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="decimal\_unit" type="string" required=false %}
-Unit to use for the decimal part of the translation \(e.g. cent\)
+{% api-method-parameter name="currency" type="string" required=false %}
+Currency to use for the value specified \(e.g. GBP, USD, INR\).
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -64,12 +63,13 @@ Full money value translation, alongside a complete breakdown of the whole and de
 
 ```
 {
-    "whole_unit": "dollars",
-    "decimal_unit": "cent",
+    "whole_unit": "pound",
+    "decimal_unit": "penny",
     "language": "fr",
-    "translation": "trois cent quarante-cinq dollars, trente-cinq cents seulement",
-    "whole_translation": "Trois cent quarante cinq",
-    "decimal_translation": "trente cinq"
+    "currency": "GBP",
+    "translation": "trois cent vingt-neuf livres, quatre-vingt-dix-neuf penny seulement",
+    "whole_translation": "trois cent vingt-neuf",
+    "decimal_translation": "quatre-vingt-dix-neuf"
 }
 ```
 {% endapi-method-response-example %}

@@ -7,14 +7,14 @@ description: Languages you can convert money values into.
 At the core of our translation, comprises over **60+ languages** you could convert monetary values into.
 
 {% hint style="info" %}
-**Notice:** In the API, you'll be required to use the **abbreviated version** of each language.
+**Notice:** In the API, you'll be required to use the **code** of each language.
 {% endhint %}
 
 ### 
 
-### Language Abbreviations
+### Language Codes
 
-| Language | Abbreviation |  | Language | Abbreviation |
+| Language | code |  | Language | code |
 | :--- | :--- | :--- | :--- | :--- |
 | Afrikaans | **af** |  | Albanian | **sq** |
 | Arabic | **ar** |  | Azerbaijani | **az** |
