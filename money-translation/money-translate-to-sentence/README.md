@@ -54,14 +54,14 @@ Language to translate into \(see supported languages\).
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="use\_short" type="boolean" required=false %}
-Should the currency name and fractional unit be rendered using their short name?  
+Use shorter form of a currency to generate a  a translation.  
   
 **Example:**  
-If the currency is **CAD,** and **use\_short** is:  
-- **true:** _Canadian dollar_  & _cent_ is used.  
-- **false**: _dollar_  & _cent_ is used \(i.e. the generic name\).  
+Given the currency **CAD**, the:  
+- short form is **Dollar** & **Cent**  
+- long form  is **Canadian Dollar** & **Cent**  
   
-By default, this is always **true**.
+By default, **use\_short** is **true**.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
