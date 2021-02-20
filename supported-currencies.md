@@ -10,6 +10,203 @@ We currently support all [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) curr
 **Notice:** In the API, you'll be required to use the **code** of each currency.
 {% endhint %}
 
+### 
+
+### Supported Currencies \(API\)
+
+{% api-method method="get" host="https://tuforty.com/api/v1" path="/supported/currencies" %}
+{% api-method-summary %}
+Get supported currencies
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Get a list of all supported currencies
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+[
+    "RUB",
+    "EUR",
+    "GBP",
+    "GGP",
+    "DZD",
+    "XCD",
+    "AMD",
+    "SHP",
+    "XOF",
+    "AUD",
+    "INR",
+    "USD",
+    "BND",
+    "SGD",
+    "XAF",
+    "NZD",
+    "ANG",
+    "DKK",
+    "ZAR",
+    "XPF",
+    "ILS",
+    "JOD",
+    "MRU",
+    "CHF",
+    "MAD",
+    "TRY",
+    "AFN",
+    "ALL",
+    "AOA",
+    "ARS",
+    "AWG",
+    "AZN",
+    "BSD",
+    "BHD",
+    "BDT",
+    "BBD",
+    "BYN",
+    "BZD",
+    "BMD",
+    "BTN",
+    "BOB",
+    "BWP",
+    "BRL",
+    "BGN",
+    "BIF",
+    "KHR",
+    "CAD",
+    "CVE",
+    "KYD",
+    "CLP",
+    "CNY",
+    "COP",
+    "KMF",
+    "CDF",
+    "CKD",
+    "CRC",
+    "HRK",
+    "CUP",
+    "CZK",
+    "DJF",
+    "DOP",
+    "EGP",
+    "ERN",
+    "SZL",
+    "ETB",
+    "FKP",
+    "FOK",
+    "FJD",
+    "GMD",
+    "GEL",
+    "GHS",
+    "GIP",
+    "GTQ",
+    "GNF",
+    "GYD",
+    "HTG",
+    "HNL",
+    "HKD",
+    "HUF",
+    "ISK",
+    "IDR",
+    "IRR",
+    "IQD",
+    "IMP",
+    "JMD",
+    "JPY",
+    "JEP",
+    "KZT",
+    "KES",
+    "KID",
+    "KPW",
+    "KRW",
+    "KWD",
+    "KGS",
+    "LAK",
+    "LBP",
+    "LSL",
+    "LRD",
+    "LYD",
+    "MOP",
+    "MGA",
+    "MWK",
+    "MYR",
+    "MVR",
+    "MUR",
+    "MXN",
+    "MDL",
+    "MNT",
+    "MZN",
+    "MMK",
+    "NAD",
+    "NPR",
+    "NIO",
+    "NGN",
+    "MKD",
+    "NOK",
+    "OMR",
+    "PKR",
+    "PAB",
+    "PGK",
+    "PYG",
+    "PEN",
+    "PHP",
+    "PND",
+    "PLN",
+    "QAR",
+    "RON",
+    "RWF",
+    "WST",
+    "STN",
+    "SAR",
+    "RSD",
+    "SCR",
+    "SLL",
+    "SBD",
+    "SOS",
+    "SLS",
+    "SSP",
+    "LKR",
+    "SDG",
+    "SRD",
+    "SEK",
+    "SYP",
+    "TWD",
+    "TJS",
+    "TZS",
+    "THB",
+    "TOP",
+    "PRB",
+    "TTD",
+    "TND",
+    "TMT",
+    "TVD",
+    "UGX",
+    "UAH",
+    "AED",
+    "UYU",
+    "UZS",
+    "VUV",
+    "VES",
+    "VND",
+    "YER",
+    "ZMW",
+    "ZWL",
+    "CUC",
+    "BAM"
+]
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
 ## Currency Codes
 
 | Currency | Code |  | Currency | Code |
@@ -97,4 +294,8 @@ We currently support all [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) curr
 | Kyrgyzstani som | **KGS** |  | West African CFA franc | **XOF** |
 | Lao kip | **LAK** |  | Yemeni rial | **YER** |
 | Lebanese pound | **LBP** |  | Zambian kwacha | **ZMW** |
+
+
+
+
 
